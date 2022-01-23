@@ -2,6 +2,7 @@
 import './App.css';
 import SearchBar from "./Components/SearchBar";
 import {useState} from "react";
+import PexelsCard from "./Components/PexelsCard";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <SearchBar search={search} setSearch={setSearch} />
+        {search?<PexelsCard className='cards' search={search} />:""}
 
     </div>
   );

@@ -1,0 +1,21 @@
+.listImg{
+    /*height: 150px;*/
+    /*width: 150px;*/
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+
+
+}
+.cards-img{
+    overflow: auto;
+}
+.header-cards >img{
+    height:50px;
+    width:300px;
+    object-fit: contain;
+
+}

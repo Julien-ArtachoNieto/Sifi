@@ -1,5 +1,6 @@
 const SearchBar =({search,setSearch,...props})=>{
     const handleClick=()=>{
+        setSearch()
         const input = document.querySelector('.searchBar')
         setSearch(input.value)
     }
