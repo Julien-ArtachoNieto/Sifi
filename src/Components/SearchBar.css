@@ -2,26 +2,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .searchBarTitle{
     font-family: 'Alfa Slab One', cursive;
     font-size: 100px;
     color: #149e6a;
-
 }
 .searchBar-input{
     height: 50px;
     width: 500px;
     background-color: #149e6a;
-    font-size: 50px;
+    font-size: 45px;
     border: 10px solid #149e6a;
     Border-radius:10px;
+    text-align: center;
 }
 .searchBar-btn{
      display: block;
      width: 100px;
-     margin-top:10px;
+     margin:50px;
      background-color: #149e6a;
      border: 10px solid #149e6a;
      Border-radius:10px;

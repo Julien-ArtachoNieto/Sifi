@@ -4,6 +4,7 @@ import SearchBar from "./Components/SearchBar";
 import {useState} from "react";
 import PexelsCard from "./Components/PexelsCard";
 import PixabayCard from "./Components/PixabayCard";
+import FlatIconCard from "./Components/FlatIconCard";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <div className='cards-list'>
             {search?<PexelsCard className='cards' search={search} />:""}
             {search?<PixabayCard className='cards' search={search} />:""}
+            {search?<FlatIconCard className='cards' search={search} />:""}
         </div>
     </div>
   );

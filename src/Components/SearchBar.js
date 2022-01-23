@@ -9,7 +9,7 @@ const SearchBar =({search,setSearch,...props})=>{
     <div className='searchBar'>
         <h1 className='searchBarTitle'>Sifi</h1>
         <input className='searchBar-input'/>
-        <button className='searchBar-btn' onClick={handleClick} >Search It</button>
+        <button className='searchBar-btn' onClick={handleClick}>Search It</button>
     </div>
 )
 }
