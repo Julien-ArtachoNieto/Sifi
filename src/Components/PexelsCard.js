@@ -2,8 +2,7 @@ import './cards.css'
 import {useEffect, useState} from "react";
 import axios from "axios";
 
-
-const PexelsCard=({search,...props})=>{
+const PexelsCard=({search})=>{
     const apiKey=process.env.REACT_APP_API_KEY_PEXELS
     const [results,setResults]=useState('')
 

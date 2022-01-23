@@ -4,6 +4,10 @@
 body{
   background-color:#3db588;
 }
-
+.cards-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 
