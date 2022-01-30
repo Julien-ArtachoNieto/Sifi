@@ -6,22 +6,23 @@
 .searchBarTitle{
     font-family: 'Alfa Slab One', cursive;
     font-size: 100px;
-    color: #149e6a;
+    color: #039c8d;
 }
 .searchBar-input{
     height: 50px;
     width: 500px;
-    background-color: #149e6a;
+    background-color: #039c8d;
     font-size: 45px;
-    border: 10px solid #149e6a;
+    border: 10px solid #6fadb0;
     Border-radius:10px;
     text-align: center;
+    color:white;
 }
 .searchBar-btn{
      display: block;
      width: 100px;
      margin:50px;
-     background-color: #149e6a;
-     border: 10px solid #149e6a;
+     background-color: #039c8d;
+     border: 10px solid #039c8d;
      Border-radius:10px;
  }

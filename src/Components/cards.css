@@ -7,7 +7,7 @@
     flex-direction: column;
     height: 600px;
     width: 300px;
-    border: 5px solid #149e6a;
+    border: 5px solid #039c8d;
     border-radius: 10px;
 }
 .cards-img{
@@ -17,7 +17,7 @@
     height:50px;
     width:300px;
     object-fit: contain;
-    border-bottom:5px solid #149e6a;
+    border-bottom:5px solid #039c8d;
     border-radius: 10px;
 
 }
