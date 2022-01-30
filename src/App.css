@@ -5,9 +5,9 @@ body{
   background-color:#ceedea;
 }
 .cards-list{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+ display: flex;
+ flex-direction: column;
+ align-content: space-around;
 }
 
 

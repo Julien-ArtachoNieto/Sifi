@@ -24,7 +24,7 @@ const FlatIconCard =({search})=>{
             <a className='header-cards' href="https://www.flaticon.com/">
                 <img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" alt='Flaticon Logo'/>
             </a>
-            <p>Nb resultats {results.length}</p>
+            <p className='nb-results'>Nb resultats {results.length}</p>
             {console.log(auth)}
             <div className='cards-img'>
 

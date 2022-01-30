@@ -1,12 +1,17 @@
 .listImg{
     max-height: 300px;
-    max-width: 299px;
+    max-width: 300px;
+    margin: 5px;
+}
+.listImg:hover{
+    transform: scale(1.5);
+    border: 5px solid #039c8d;
 }
 .cards{
     display: flex;
     flex-direction: column;
-    height: 600px;
-    width: 300px;
+    height: auto;
+    width: auto;
     border: 5px solid #039c8d;
     border-radius: 10px;
 }
@@ -14,10 +19,16 @@
     overflow: auto;
 }
 .header-cards >img{
-    height:50px;
-    width:300px;
+    display: inline-block;
+    height:90px;
+    width:auto;
     object-fit: contain;
     border-bottom:5px solid #039c8d;
     border-radius: 10px;
 
+}
+.nb-results{
+    display: inline-block;
+    color:#039c8d;
+    margin-bottom: 50px;
 }

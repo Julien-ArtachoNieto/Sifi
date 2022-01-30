@@ -16,7 +16,7 @@ const PexelsCard=({search})=>{
         <a className='header-cards' href="https://www.pexels.com">
             <img src="https://images.pexels.com/lib/api/pexels.png" alt='Pexels Logo'/>
         </a>
-        <p>Nb resultats {results.length}</p>
+        <p className='nb-results'>Nb resultats {results.length}</p>
         <div className='cards-img'>
             {results?results.map( result=> <img key={result.id} className='listImg' src={result.src.tiny} alt={result.alt} /> ):"" }
             {console.log(results)}

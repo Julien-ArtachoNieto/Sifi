@@ -15,7 +15,7 @@ const PixabayCard =({search})=>{
             <a className='header-cards' href="https://pixabay.com/">
                 <img src="https://pixabay.com/static/img/logo.png" alt='Pixabay Logo'/>
             </a>
-            <p>Nb resultats {results.length}</p>
+            <p className='nb-results'>Nb resultats {results.length}</p>
             <div className='cards-img'>
                 {console.log('PIXABAY RESULT : ',results)}
                 {results?results.map(result=><img key={result.id} className='listImg' src={result.webformatURL} alt={result.tags}/>):""}

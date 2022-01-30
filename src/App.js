@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <SearchBar search={search} setSearch={setSearch} />
         <div className='cards-list'>
-            {/*{search?<PexelsCard className='cards' search={search} />:""}*/}
-            {/*{search?<PixabayCard className='cards' search={search} />:""}*/}
-            {search?<FlatIconCard className='cards' search={search} />:""}
+            {search?<PexelsCard className='card' search={search} />:""}
+            {search?<PixabayCard className='card' search={search} />:""}
+            {search?<FlatIconCard className='card' search={search} />:""}
         </div>
     </div>
   );

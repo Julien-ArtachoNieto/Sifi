@@ -25,4 +25,9 @@
      background-color: #039c8d;
      border: 10px solid #039c8d;
      Border-radius:10px;
+     color:white;
+     font-family: 'Alfa Slab One', cursive;
  }
+.searchBar-btn:active{
+    transform: scale(0.9);
+}
