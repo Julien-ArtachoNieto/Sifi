@@ -26,9 +26,9 @@ const FlatIconCard =({search})=>{
             </a>
             <p className='nb-results'>Nb resultats {results.length}</p>
             {console.log(auth)}
-            <div className='cards-img'>
-
-                {results?results.map(result=><img key={result.id} className='listImg' src={result.images[64]} alt={result.description} />):""}
+            <div className='cards-icon'>
+                {results?results.map(result=><div className='icon'><img key={result.id} className='listIcon' src={result.images[64]} alt={result.description} />{result.description}</div>):""}
+                {console.log("FLATICON RESULT",results)}
             </div>
         </div>
     )

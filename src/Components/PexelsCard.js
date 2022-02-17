@@ -18,8 +18,8 @@ const PexelsCard=({search})=>{
         </a>
         <p className='nb-results'>Nb resultats {results.length}</p>
         <div className='cards-img'>
-            {results?results.map( result=> <img key={result.id} className='listImg' src={result.src.tiny} alt={result.alt} /> ):"" }
-            {console.log(results)}
+            {results?results.map( result=> <a href={result.url}><img key={result.id} className='listImg' src={result.src.tiny} alt={result.alt} /></a> ):"" }
+            {console.log("PEXEL RESULT",results)}
         </div>
 
     </div>

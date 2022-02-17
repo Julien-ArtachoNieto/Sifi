@@ -2,6 +2,8 @@
     max-height: 300px;
     max-width: 300px;
     margin: 5px;
+    background-color: #6fadb0;
+
 }
 .listImg:hover{
     transform: scale(1.5);
@@ -17,11 +19,13 @@
 }
 .cards-img{
     overflow: auto;
+    padding-top: 4%;
 }
 .header-cards >img{
     display: inline-block;
     height:90px;
     width:auto;
+
     object-fit: contain;
     border-bottom:5px solid #039c8d;
     border-radius: 10px;
@@ -30,5 +34,27 @@
 .nb-results{
     display: inline-block;
     color:#039c8d;
-    margin-bottom: 50px;
+}
+.listIcon{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 5px;
+    background-color: #6fadb0;
+    border-radius: 15%;
+}
+.listIcon:hover{
+    transform: scale(1.5);
+    border: 5px solid #039c8d;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+}
+
+.cards-icon{
+    display: flex;
+    overflow: auto;
+    padding-top: 4%;
 }

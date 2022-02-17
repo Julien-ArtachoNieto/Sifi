@@ -18,7 +18,7 @@ const PixabayCard =({search})=>{
             <p className='nb-results'>Nb resultats {results.length}</p>
             <div className='cards-img'>
                 {console.log('PIXABAY RESULT : ',results)}
-                {results?results.map(result=><img key={result.id} className='listImg' src={result.webformatURL} alt={result.tags}/>):""}
+                {results?results.map(result=><a href={result.pageURL}><img key={result.id} className='listImg' src={result.webformatURL} alt={result.tags}/></a>):""}
             </div>
         </div>
     )
